@@ -1,15 +1,20 @@
 # LibC to Zig
 
-Repository for site hosted at [libctozig.netlify.app](https://libctozig.netlify.app)
+Repository for site hosted at [libc-to-zig.netlify.app](https://libc-to-zig.netlify.app)
 
 # File Structure
 
 ```sh
-| - headers
-|       - *_h.md # all the header docs
-| 
-|
-|
+| - etc/                        # all extra files
+|       - _sidebar.md           # code for the sidebar
+| - headers/                    # header files
+|       - *_h.md                # all the header docs
+| - tips_tricks                 # tips and tricks
+|       - *.md                  # tips and tricks docs
+| - README.md                   # README to the current repo
+| - gen.js                      # script to generate files - ignore
+| - index.html                  # entry html file
+| - index.md                    # HOME page
 ```
 
 # Building the Repo
