@@ -57,4 +57,4 @@ https://github.com/zig-community/libc-to-zig
 
 ## License
 
-[MIT](/LICENSE)
+[MIT](https://github.com/zig-community/libc-to-zig/blob/main/LICENSE)
