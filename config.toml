@@ -1,8 +1,0 @@
-baseURL = "https://libc-to-zig.netlify.app/"
-languageCode = "en-us"
-title = "LibC to Zig"
-
-[params]
-BookTheme = 'dark-zig'
-BookMenuBundle = '/menu'
-
