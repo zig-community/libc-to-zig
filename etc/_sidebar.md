@@ -2,6 +2,10 @@
 
 - [Home](/ "LibC to Zig: Home")
 
+- Tips and Tricks
+  - [Handling strings](/tips_tricks/01_handling_strings.md)
+  - [Allocator](/tips_tricks/01_allocator.md)
+
 - Headers
   - [\<assert.h\>](/headers/assert_h.md "LibC to Zig: <assert.h>")
   - [\<complex.h\>](/headers/complex_h.md "LibC to Zig: <complex.h>")
@@ -32,8 +36,3 @@
   - [\<uchar.h\>](/headers/uchar_h.md "LibC to Zig: <uchar.h>")
   - [\<wchar.h\>](/headers/wchar_h.md "LibC to Zig: <wchar.h>")
   - [\<wctype.h\>](/headers/wctype_h.md "LibC to Zig: <wctype.h>")
-
-- Tips and Tricks
-  - [Handling strings](/tips_tricks/01_handling_strings.md)
-  - [Allocator](/tips_tricks/01_allocator.md)
-
