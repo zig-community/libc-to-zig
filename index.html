@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <meta charset="UTF-8" />
     <title>Document</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -47,6 +47,15 @@
       .markdown-section {
         max-width: 90%;
       }
+      .markdown-section p.tip {
+        border-left: 4px solid #f7a31d;
+      }
+      .markdown-section p.tip::before {
+        background-color: #f7a31d;
+      }
+      .markdown-section pre > code {
+        color: #c5cbce;
+      }
     </style>
   </head>
   <body>
@@ -55,8 +64,8 @@
       window.$docsify = {
         name: "LibC to Zig ⚡",
         repo: "https://github.com/zig-community/libc-to-zig",
-        loadSidebar: 'etc/_sidebar.md',
-        subMaxLevel: 2,
+        loadSidebar: "etc/_sidebar.md",
+        subMaxLevel: 3,
         search: "auto",
         themeColor: "#f7a31d",
         homepage: "index.md",

@@ -3,8 +3,8 @@
 - [Home](/ "LibC to Zig: Home")
 
 - Tips and Tricks
-  - [Handling strings](/tips_tricks/01_handling_strings.md)
-  - [Allocator](/tips_tricks/01_allocator.md)
+  - [Handling strings](/tips_tricks/handling_strings.md)
+  - [Allocator](/tips_tricks/allocator.md)
 
 - Headers
   - [\<assert.h\>](/headers/assert_h.md "LibC to Zig: <assert.h>")
